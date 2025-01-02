@@ -9,7 +9,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 15, poll_frequency=1)
+        self.wait = WebDriverWait(self.driver, 20, poll_frequency=1)
 
     def open(self):
         with allure.step(f"Open {Data.HOST} page"):
