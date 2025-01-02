@@ -6,4 +6,8 @@
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/py-api-ui.iml
 /.idea/vcs.xml
-
+.pytest_cache
+*.iml
+.env
+report
+allure-results
