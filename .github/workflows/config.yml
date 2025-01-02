@@ -24,6 +24,7 @@ jobs:
         env:
           LOGIN: ${{ secrets.LOGIN }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          HOST: ${{ secrets.HOST }}
         run: |
           docker-compose up --exit-code-from regression || true
 
