@@ -13,3 +13,4 @@ services:
     environment:
       - LOGIN=${LOGIN}
       - PASSWORD=${PASSWORD}
+      - HOST=${HOST}
